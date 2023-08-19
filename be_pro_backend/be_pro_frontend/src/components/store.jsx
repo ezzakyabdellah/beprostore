@@ -280,7 +280,7 @@ function Store() {
       <div className='container px-5 mx-auto'>
         {/* popular product */}
         <div className='flex flex-wrap -m-4 items-stretch'>
-          <div className='lg:w-1/4 md:w-1/2 p-4'>
+          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[0]?.productLink, '_blank')}>
             <div className=' cursor-pointer w-full border-solid border-2 bg-black h-full flex flex-col justify-center items-center'>
               <div className=''>
                 <svg
