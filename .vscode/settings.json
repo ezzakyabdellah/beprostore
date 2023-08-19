@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": true
+            },
+            "previewLimit": 50,
+            "server": "beprodb-9762.8nj.cockroachlabs.cloud",
+            "port": 26257,
+            "driver": "PostgreSQL",
+            "name": "beprodb",
+            "database": "defaultdb",
+            "username": "userA"
+        }
+    ]
+}
