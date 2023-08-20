@@ -280,7 +280,7 @@ function Store() {
       <div className='container px-5 mx-auto'>
         {/* popular product */}
         <div className='flex flex-wrap -m-4 items-stretch'>
-          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[0]?.productLink, '_blank')}>
+          <div className='lg:w-1/4 md:w-1/2 p-4'>
             <div className=' cursor-pointer w-full border-solid border-2 bg-black h-full flex flex-col justify-center items-center'>
               <div className=''>
                 <svg
@@ -303,7 +303,7 @@ function Store() {
               </a>
             </div>
           </div>
-          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[1]?.productLink, '_blank')}>
+          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[0]?.productLink, '_blank')}>
             <div className=' cursor-pointer w-full border-solid border-2 p-4'>
               <a className='block relative h-48 rounded overflow-hidden'>
                 <img
@@ -326,7 +326,7 @@ function Store() {
               </div>
             </div>
           </div>
-          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[2]?.productLink, '_blank')}>
+          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[1]?.productLink, '_blank')}>
             <div className=' cursor-pointer w-full border-solid border-2 p-4'>
               <a className='block relative h-48 rounded overflow-hidden'>
                 <img
@@ -349,7 +349,7 @@ function Store() {
               </div>
             </div>
           </div>
-          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[3]?.productLink, '_blank')}>
+          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[2]?.productLink, '_blank')}>
             <div className=' cursor-pointer w-full border-solid border-2 p-4'>
               <a className='block relative h-48 rounded overflow-hidden'>
                 <img
@@ -372,7 +372,7 @@ function Store() {
               </div>
             </div>
           </div>
-          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[4]?.productLink, '_blank')}>
+          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[3]?.productLink, '_blank')}>
             <div className=' cursor-pointer w-full border-solid border-2 p-4'>
               <a className='block relative h-48 rounded overflow-hidden'>
                 <img
@@ -427,7 +427,7 @@ function Store() {
               </div>
             </div>
           </div>
-          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[5]?.productLink, '_blank')}>
+          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[4]?.productLink, '_blank')}>
             <div className=' cursor-pointer w-full border-solid border-2 p-4'>
               <a className='block relative h-48 rounded overflow-hidden'>
                 <img
@@ -450,7 +450,7 @@ function Store() {
               </div>
             </div>
           </div>
-          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[6]?.productLink, '_blank')}>
+          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[5]?.productLink, '_blank')}>
             <div className=' cursor-pointer w-full border-solid border-2 p-4'>
               <a className='block relative h-48 rounded overflow-hidden'>
                 <img
@@ -473,7 +473,7 @@ function Store() {
               </div>
             </div>
           </div>
-          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[7]?.productLink, '_blank')}>
+          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[6]?.productLink, '_blank')}>
             <div className=' cursor-pointer w-full border-solid border-2 p-4'>
               <a className='block relative h-48 rounded overflow-hidden'>
                 <img
@@ -496,7 +496,7 @@ function Store() {
               </div>
             </div>
           </div>
-          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[8]?.productLink, '_blank')}>
+          <div className='lg:w-1/4 md:w-1/2 p-4' onClick={() => open(data[7]?.productLink, '_blank')}>
             <div className=' cursor-pointer w-full border-solid border-2 p-4'>
               <a className='block relative h-48 rounded overflow-hidden'>
                 <img
