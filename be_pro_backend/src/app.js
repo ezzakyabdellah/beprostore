@@ -46,16 +46,16 @@ configs.routerConfig(app);
 
 // catch 404 and forward to error handler
 
-
 // JOBS
 jobEbayRefreshDataBase.schedule();
 
 if (NODE_ENV === 'production') {
   console.log('NODE_ENV :::: ', NODE_ENV, NODE_ENV === 'production');
   const __dirname = path.resolve();
-  app.use(express.static(path.join(__dirname, '/be_pro_frontend/dist')));
+  app.use(express.static(path.resolve(__dirname, 'be_pro_frontend', 'dist')));
 
-  app.get('*', (req, res) => res.sendFile(path.resolve(__dirname, 'be_pro_frontend', 'dist', 'index.html')));
+  app.get('*', (req, res) => 
+    res.sendFile(path.resolve(__dirname, 'be_pro_frontend', 'dist', 'index.html')));
 } else {
   app.get('/', (req, res) => {
     res.send('API is running....');
@@ -63,7 +63,7 @@ if (NODE_ENV === 'production') {
 }
 
 app.use((req, res, next) => {
-next(createError(404));
+  next(createError(404));
 });
 
 // Sentry error logging - error handler
