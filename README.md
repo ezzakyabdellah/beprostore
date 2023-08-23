@@ -23,6 +23,15 @@ Secure Transactions: Be.pro places a premium on your security. All transactions 
 
 Responsive Design: Whether you're accessing Be.pro from a desktop, tablet, or smartphone, the responsive design guarantees a consistent and optimized experience across all devices.
 
+
 Your Fashion Exploration Begins:
 
 At Be.pro, we understand that fashion is a statement, an expression of your individuality. With our sophisticated platform developed with Node.js, React, Tailwind, Sequelize, and PostgreSQL, we bring the world of watches, sunglasses, hats, and sandals right to your fingertips. Explore, experiment, and embrace the latest trends effortlessly. Welcome to Be.pro – where style meets innovation.
+
+
+
+
+**Be.pro** is licensed under the MIT license.
+
+For technical information : [README.md](https://github.com/ezzakyabdellah/beprostore/blob/main/be_pro_backend/README.md)
+
